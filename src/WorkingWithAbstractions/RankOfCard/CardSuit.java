@@ -1,11 +1,11 @@
-package WorkingWithAbstractions.CardSuit;
+package WorkingWithAbstractions.RankOfCard;
 
 public enum CardSuit {
 
     CLUBS(0),
-    DIAMONDS(1),
-    HEARTS(2),
-    SPADES(3);
+    DIAMONDS(13),
+    HEARTS(26),
+    SPADES(39);
 
     private final int ordinalValue;
 
