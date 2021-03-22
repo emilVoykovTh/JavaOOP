@@ -1,4 +1,4 @@
-package Encapsulation;
+package Encapsulation.Lab;
 
 import java.text.DecimalFormat;
 

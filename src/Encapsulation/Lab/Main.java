@@ -1,4 +1,4 @@
-package Encapsulation;
+package Encapsulation.Lab;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,7 +29,7 @@ public class Main {
         System.out.println("First team have " + team.getFirstTeam().size() + " players");
         System.out.println("Reserve team have " + team.getReserveTeam().size() + " players");
 //        double bonus = Double.parseDouble(reader.readLine());
-//        for (Person person : people) {
+//        for (Encapsulation.shoppingSpree.Person person : people) {
 //            person.increaseSalary(bonus);
 //            System.out.println(person.toString());
 //        }
