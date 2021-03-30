@@ -1,3 +1,5 @@
+package footballTeamGenerator;
+
 import java.util.List;
 
 public class Player {
