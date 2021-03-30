@@ -1,6 +1,4 @@
-package footballTeamGenerator;
-
-import java.util.List;
+package Encapsulation.footballTeamGenerator;
 
 public class Player {
     //+	overallSkillLevel() : double

@@ -1,10 +1,10 @@
-package footballTeamGenerator;
+package Encapsulation.footballTeamGenerator;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Team {
-    //+	addPlayer(footballTeamGenerator.Player) : void
+    //+	addPlayer(Encapsulation.footballTeamGenerator.Player) : void
     //+	removePlayer(String) : void
     //+	getRating() : double
 
@@ -45,7 +45,7 @@ public class Team {
         if (containsPlayerName){
             players.remove(playerSearched);
         }else {
-            throw new IllegalArgumentException("footballTeamGenerator.Player "+ playerName +" is not in Arsenal team.");
+            throw new IllegalArgumentException("Encapsulation.footballTeamGenerator.Player "+ playerName +" is not in Arsenal team.");
         }
     }
 

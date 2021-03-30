@@ -1,4 +1,4 @@
-package footballTeamGenerator;
+package Encapsulation.footballTeamGenerator;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,7 +18,7 @@ public class Main {
             String teamName = tokens[1];
 
             switch (command) {
-                case "footballTeamGenerator.Team":
+                case "Encapsulation.footballTeamGenerator.Team":
                     try {
                         Team team = new Team(teamName);
                         teams.putIfAbsent(teamName, team);
@@ -37,7 +37,7 @@ public class Main {
 
                     try {
                         if (!teams.containsKey(teamName)) {
-                            System.out.println("footballTeamGenerator.Team " + teamName + " does not exist.");
+                            System.out.println("Encapsulation.footballTeamGenerator.Team " + teamName + " does not exist.");
                             break;
                         }
                         Player player = new Player(playerName, endurance, sprint, dribble, passing, shooting);
@@ -51,7 +51,7 @@ public class Main {
                     String playerToRemoveByName = tokens[2];
                     try {
                         if (!teams.containsKey(teamName)) {
-                            System.out.println("footballTeamGenerator.Team " + teamName + " does not exist.");
+                            System.out.println("Encapsulation.footballTeamGenerator.Team " + teamName + " does not exist.");
                             break;
                         }
                         teams.get(teamName).removePlayer(playerToRemoveByName);
@@ -62,7 +62,7 @@ public class Main {
 
                 case "Rating":
                     if (!teams.containsKey(teamName)) {
-                        System.out.println("footballTeamGenerator.Team " + teamName + " does not exist.");
+                        System.out.println("Encapsulation.footballTeamGenerator.Team " + teamName + " does not exist.");
                         break;
                     }
                     double rating = teams.get(teamName).getRating();
