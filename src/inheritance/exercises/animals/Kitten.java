@@ -1,6 +1,4 @@
-package animals;
-
-import animals.Cat;
+package inheritance.exercises.animals;
 
 public class Kitten extends Cat {
 

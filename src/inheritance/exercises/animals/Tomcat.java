@@ -1,4 +1,4 @@
-package animals;
+package inheritance.exercises.animals;
 
 public class Tomcat extends Cat{
 

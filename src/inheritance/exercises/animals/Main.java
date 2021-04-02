@@ -1,4 +1,4 @@
-package animals;
+package inheritance.exercises.animals;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,7 +33,7 @@ public class Main {
                     case "Frog":
                         animal = new Frog(animalName, age, animalGender);
                         break;
-                    case "animals.Kitten":
+                    case "inheritance.exercises.animals.Kitten":
                         animal = new Kitten(animalName, age);
                 }
                 animals.add(animal);

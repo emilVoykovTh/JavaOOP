@@ -1,4 +1,4 @@
-package restaurant.food;
+package inheritance.exercises.restaurant.food;
 
 import java.math.BigDecimal;
 

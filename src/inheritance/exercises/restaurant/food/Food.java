@@ -1,6 +1,6 @@
-package restaurant.food;
+package inheritance.exercises.restaurant.food;
 
-import restaurant.Product;
+import inheritance.exercises.restaurant.Product;
 
 import java.math.BigDecimal;
 
