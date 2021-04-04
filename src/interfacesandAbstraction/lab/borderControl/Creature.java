@@ -1,5 +1,5 @@
 package interfacesandAbstraction.lab.borderControl;
 
-public interface Identifiable {
-    String getId();
+public interface Creature {
+    String getName();
 }

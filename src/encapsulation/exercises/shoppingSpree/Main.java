@@ -6,14 +6,14 @@ public class Main {
 //
 //        String[] uninitializedPeople = scanner.nextLine().split(";");
 //        String[] uninitializedProducts = scanner.nextLine().split(";");
-//        List<Encapsulation.Exercises.shoppingSpree.Inheritance.Exercises.interfacesandAbstraction.exercises.multipleImplementation.Person.interfacesandAbstraction.exercises.multipleImplementation.Person> personList = new ArrayList<>();
+//        List<Encapsulation.Exercises.shoppingSpree.Inheritance.Exercises.interfacesandAbstraction.exercises.multipleImplementation.interfacesandAbstraction.exercises.problemFoodShortage.Person.interfacesandAbstraction.exercises.multipleImplementation.interfacesandAbstraction.exercises.problemFoodShortage.Person> personList = new ArrayList<>();
 //        Map<String, Encapsulation.Exercises.shoppingSpree.Product> productList = new HashMap();
 //
 //        //add Products and People
 //        try {
 //            for (int i = 0; i < uninitializedPeople.length; i++) {
 //                String[] tokens = uninitializedPeople[i].split("=");
-//                Encapsulation.Exercises.shoppingSpree.Inheritance.Exercises.interfacesandAbstraction.exercises.multipleImplementation.Person.interfacesandAbstraction.exercises.multipleImplementation.Person person = new Encapsulation.Exercises.shoppingSpree.Inheritance.Exercises.interfacesandAbstraction.exercises.multipleImplementation.Person.interfacesandAbstraction.exercises.multipleImplementation.Person(tokens[0], Double.parseDouble(tokens[1]));
+//                Encapsulation.Exercises.shoppingSpree.Inheritance.Exercises.interfacesandAbstraction.exercises.multipleImplementation.interfacesandAbstraction.exercises.problemFoodShortage.Person.interfacesandAbstraction.exercises.multipleImplementation.interfacesandAbstraction.exercises.problemFoodShortage.Person person = new Encapsulation.Exercises.shoppingSpree.Inheritance.Exercises.interfacesandAbstraction.exercises.multipleImplementation.interfacesandAbstraction.exercises.problemFoodShortage.Person.interfacesandAbstraction.exercises.multipleImplementation.interfacesandAbstraction.exercises.problemFoodShortage.Person(tokens[0], Double.parseDouble(tokens[1]));
 //                personList.add(person);
 //            }
 //            for (int i = 0; i < uninitializedPeople.length; i++) {
@@ -33,14 +33,14 @@ public class Main {
 //            String productName = tokens[1];
 //
 //            Encapsulation.Exercises.shoppingSpree.Product product = productList.get(productName);
-//            for (Encapsulation.Exercises.shoppingSpree.Inheritance.Exercises.interfacesandAbstraction.exercises.multipleImplementation.Person.interfacesandAbstraction.exercises.multipleImplementation.Person person : personList) {
+//            for (Encapsulation.Exercises.shoppingSpree.Inheritance.Exercises.interfacesandAbstraction.exercises.multipleImplementation.interfacesandAbstraction.exercises.problemFoodShortage.Person.interfacesandAbstraction.exercises.multipleImplementation.interfacesandAbstraction.exercises.problemFoodShortage.Person person : personList) {
 //                if (person.getName().equals(personName)){
 //                    person.buyProduct(product);
 //                }
 //            }
 //        }
 //
-//        for (Encapsulation.Exercises.shoppingSpree.Inheritance.Exercises.interfacesandAbstraction.exercises.multipleImplementation.Person.interfacesandAbstraction.exercises.multipleImplementation.Person person : personList) {
+//        for (Encapsulation.Exercises.shoppingSpree.Inheritance.Exercises.interfacesandAbstraction.exercises.multipleImplementation.interfacesandAbstraction.exercises.problemFoodShortage.Person.interfacesandAbstraction.exercises.multipleImplementation.interfacesandAbstraction.exercises.problemFoodShortage.Person person : personList) {
 //            System.out.println(person.printProducts());
 //        }
 //

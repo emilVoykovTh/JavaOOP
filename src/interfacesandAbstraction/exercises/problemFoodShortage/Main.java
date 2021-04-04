@@ -1,4 +1,4 @@
-package interfacesandAbstraction.lab.borderControl;
+package interfacesandAbstraction.exercises.problemFoodShortage;
 
 public class Main {
     public static void main(String[] args) {
