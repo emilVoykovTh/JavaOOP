@@ -24,7 +24,7 @@ public class Main {
             Animal animal = null;
             try {
                 switch (animalType) {
-                    case "polymorphism.lab.Animals.Cat":
+                    case "polymorphism.lab.Animals.polymorphism.exercises.wildFarm.Cat":
                         animal = new Cat(animalName, age, animalGender);
                         break;
                     case "polymorphism.lab.Animals.Dog":

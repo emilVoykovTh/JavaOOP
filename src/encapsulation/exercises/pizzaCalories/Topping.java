@@ -10,7 +10,7 @@ public class Topping {
     }
 
     public void setToppingType(String toppingType) {
-        if (!"Meat".equals(toppingType) && !"Veggies".equals(toppingType) && !"Cheese".equals(toppingType) && !"Sauce".equals(toppingType)) {
+        if (!"polymorphism.exercises.wildFarm.Meat".equals(toppingType) && !"Veggies".equals(toppingType) && !"Cheese".equals(toppingType) && !"Sauce".equals(toppingType)) {
             throw new IllegalArgumentException("Cannot place " + toppingType + " on top of your pizza.");
         } else {
             this.toppingType = toppingType;
@@ -27,7 +27,7 @@ public class Topping {
 
     private double getToppingModifier(){
         double calModifier = 0;
-        if (this.toppingType.equals("Meat")){
+        if (this.toppingType.equals("polymorphism.exercises.wildFarm.Meat")){
             calModifier = 1.2;
         }else if (this.toppingType.equals("Veggies")){
             calModifier = 0.8;
