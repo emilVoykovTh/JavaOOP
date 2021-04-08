@@ -24,10 +24,10 @@ public class Main {
             Animal animal = null;
             try {
                 switch (animalType) {
-                    case "Cat":
+                    case "polymorphism.lab.Animals.Cat":
                         animal = new Cat(animalName, age, animalGender);
                         break;
-                    case "Dog":
+                    case "polymorphism.lab.Animals.Dog":
                         animal = new Dog(animalName, age, animalGender);
                         break;
                     case "Frog":

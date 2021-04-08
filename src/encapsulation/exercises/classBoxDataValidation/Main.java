@@ -1,6 +1,6 @@
 package encapsulation.exercises.classBoxDataValidation;
 
-import DefiningClasses.opinionPoll.Person;
+import definingClasses.opinionPoll.Person;
 
 
 public class Main {
